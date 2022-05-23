@@ -17,6 +17,7 @@ dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
 
 
 set.seed(123)
+
 split = sample.split(dataset$Purchased, SplitRatio = 0.75)
 training_set = subset(dataset, split == TRUE)
 test_set = subset(dataset, split == FALSE)
