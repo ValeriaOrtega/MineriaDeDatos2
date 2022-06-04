@@ -71,3 +71,5 @@ TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'coral1',
 'blue'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Evaluation/grafica.png)
