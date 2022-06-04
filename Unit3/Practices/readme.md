@@ -116,6 +116,16 @@ SL = 0.05
 training_set
 backwardElimination(training_set, SL)
 
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/P2.png)
+
+
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/result%20P2.png)
+
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/resultP2.png)
+
+
+
+
 Practice 3
 
 ##Se agrega la ruta en donde se encuentra el archivo que es donde lo va a buscar:
@@ -203,6 +213,15 @@ contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/grafica%201%20P3.png)
+
+
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/grafica%202%20P3.png)
+
+
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/grafica%203%20P3.png)
+
+
 
 Practice 4
 
@@ -276,3 +295,7 @@ plot(set[, -3],
 contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/grafica%201%20P4.png)
+
+![img](https://github.com/ValeriaOrtega/MineriaDeDatos2/blob/Unit3/Unit3/Practices/grafica%202%20P4.png)
